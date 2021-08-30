@@ -1,6 +1,6 @@
 {
   "name": "maccms-player",
-  "version": "2.8.52",
+  "version": "2.8.54",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

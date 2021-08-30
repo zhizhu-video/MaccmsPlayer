@@ -8,7 +8,8 @@ module.exports = {
       builderOptions: {
         nsis: {
           oneClick: false,
-          allowToChangeInstallationDirectory: true
+          allowToChangeInstallationDirectory: true,
+          shortcutName: '苹果资源库' // include: 'build/script/installer.nsh' // 包含的自定义nsis脚本 这个对于构建需求严格得安装过程相当有用。
         },
         appId: 'com.zhizhuvideo.maccmsplayer',
         copyright: 'Copyright @ 2020 supbose@pm.me',
